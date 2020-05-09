@@ -3,8 +3,9 @@ import '../styles/App.css';
 import { Provider } from 'react-redux'
 import store from '../redux/store'
 import Example from './Example'
+import Nav from './layout/Nav'
 export default () => <div>
   <Provider store={store}>
-    <Example />
+    <Nav />
   </Provider>
 </div>
